@@ -3,7 +3,7 @@
 // document.querySelector('.number').textContent = 13;
 // document.querySelector('.score').textContent = 11;
 // document.querySelector('.guess').value = 23;
-let secretNumber = Math.trunc(Math.random() * 20) + 1;
+let secretNumber = Math.trunc(Math.random() * 100) + 1;
 let score = 20;
 let highScore = 0;
 document.querySelector('.check').addEventListener('click', function () {
